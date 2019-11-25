@@ -1,0 +1,6 @@
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\obj\Debug\PV2doParcial.csprojAssemblyReference.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\bin\Debug\PV2doParcial.exe.config
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\bin\Debug\PV2doParcial.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\bin\Debug\PV2doParcial.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\obj\Debug\PV2doParcial.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\PV2doParcial\PV2doParcial\obj\Debug\PV2doParcial.pdb
