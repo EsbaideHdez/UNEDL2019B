@@ -1,0 +1,9 @@
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.csprojAssemblyReference.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.Form1.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.Properties.Resources.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.csproj.GenerateResource.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\bin\Debug\Examen_TPV2doParcial.exe.config
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\bin\Debug\Examen_TPV2doParcial.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\bin\Debug\Examen_TPV2doParcial.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\Examen_TPV2doParcial\Examen_TPV2doParcial\obj\Debug\Examen_TPV2doParcial.pdb
