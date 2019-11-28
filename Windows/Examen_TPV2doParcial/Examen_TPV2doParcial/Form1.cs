@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,69 +14,54 @@ namespace Examen_TPV2doParcial
 {
     public partial class Form1 : Form
     {
+        ArrayList palabra = new ArrayList();
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void read_button1_Click(object sender, EventArgs e)
         {
+            palabra.Add(entrada.Text);
+            MessageBox.Show("Se ha agregado una palabra");
 
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (filename.Text != "")
-            {
-                content.Text = "";
-                try
-                {
-                    var fs = File.OpenRead(filename.Text);
-                    var stream = new StreamReader(fs);
-                    String line;
-                    while ((line = stream.ReadLine()) != null)
-                    {
-                        content.Text += line + "\n";
-                    }
-                    fs.Close();
-                }
-                catch (FileNotFoundException ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Debes escribir el nombre de un archivo!");
-            }
-
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
-            if (filename.Text != "")
+            for (int i = 0; i < palabra.Count; i++)
             {
-                try
+                int contador = 0;
+                for (int j = 0; j < palabra.Count; j++)
                 {
-                    File.WriteAllText(filename.Text, content.Text);
+                    if (i != j)
+                    {
+                        if (palabra[i].ToString() == palabra[i].ToString())
+                        {
+                            palabra[j] = "0";
+                            contador++;
+                        }
+                    }
+                   
                 }
-                catch (IOException ex)
+                if (contador > 0)
                 {
-                    MessageBox.Show("Error: " + ex.Message);
+                    if (palabra[i].ToString() != "0")
+                    {
+                        Contenido.Items.Add(palabra[i].ToString() + " las veces que se repiten son" + contador);
+                        
+                    }
                 }
             }
-            else
-            {
-                MessageBox.Show("Debes escribir el nombre de un archivo!");
-            }
+        }
+
+        private void ver_lista_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
+    
 
 /*Esbaide Yaziel Hernández Delgadillo   27-Noviembre-2019
  * 1. Describa en sus propias palabras el concepto de colecciones (collections) y cuales tipos existen.

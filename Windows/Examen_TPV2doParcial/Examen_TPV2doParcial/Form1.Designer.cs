@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.filename = new System.Windows.Forms.TextBox();
+            this.entrada = new System.Windows.Forms.TextBox();
             this.read_button1 = new System.Windows.Forms.Button();
-            this.write_button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.content = new System.Windows.Forms.TextBox();
+            this.look_button2 = new System.Windows.Forms.Button();
+            this.Contenido = new System.Windows.Forms.ListBox();
+            this.ver_lista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -45,12 +45,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Entrada";
             // 
-            // filename
+            // entrada
             // 
-            this.filename.Location = new System.Drawing.Point(121, 31);
-            this.filename.Name = "filename";
-            this.filename.Size = new System.Drawing.Size(163, 20);
-            this.filename.TabIndex = 1;
+            this.entrada.Location = new System.Drawing.Point(121, 31);
+            this.entrada.Name = "entrada";
+            this.entrada.Size = new System.Drawing.Size(163, 20);
+            this.entrada.TabIndex = 1;
             // 
             // read_button1
             // 
@@ -58,45 +58,48 @@
             this.read_button1.Name = "read_button1";
             this.read_button1.Size = new System.Drawing.Size(75, 23);
             this.read_button1.TabIndex = 2;
-            this.read_button1.Text = "Leer";
+            this.read_button1.Text = "Agregar";
             this.read_button1.UseVisualStyleBackColor = true;
+            this.read_button1.Click += new System.EventHandler(this.read_button1_Click);
             // 
-            // write_button2
+            // look_button2
             // 
-            this.write_button2.Location = new System.Drawing.Point(415, 31);
-            this.write_button2.Name = "write_button2";
-            this.write_button2.Size = new System.Drawing.Size(75, 23);
-            this.write_button2.TabIndex = 3;
-            this.write_button2.Text = "Escribir";
-            this.write_button2.UseVisualStyleBackColor = true;
-            this.write_button2.Click += new System.EventHandler(this.button2_Click);
+            this.look_button2.Location = new System.Drawing.Point(315, 74);
+            this.look_button2.Name = "look_button2";
+            this.look_button2.Size = new System.Drawing.Size(75, 23);
+            this.look_button2.TabIndex = 3;
+            this.look_button2.Text = "Ver";
+            this.look_button2.UseVisualStyleBackColor = true;
+            this.look_button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label2
+            // Contenido
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Contenido";
+            this.Contenido.FormattingEnabled = true;
+            this.Contenido.Location = new System.Drawing.Point(61, 74);
+            this.Contenido.Name = "Contenido";
+            this.Contenido.Size = new System.Drawing.Size(231, 95);
+            this.Contenido.TabIndex = 5;
             // 
-            // content
+            // ver_lista
             // 
-            this.content.Location = new System.Drawing.Point(61, 86);
-            this.content.Name = "content";
-            this.content.Size = new System.Drawing.Size(303, 20);
-            this.content.TabIndex = 4;
+            this.ver_lista.Location = new System.Drawing.Point(315, 125);
+            this.ver_lista.Name = "ver_lista";
+            this.ver_lista.Size = new System.Drawing.Size(75, 23);
+            this.ver_lista.TabIndex = 6;
+            this.ver_lista.Text = "Ver lista";
+            this.ver_lista.UseVisualStyleBackColor = true;
+            this.ver_lista.Click += new System.EventHandler(this.ver_lista_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 145);
-            this.Controls.Add(this.content);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.write_button2);
+            this.ClientSize = new System.Drawing.Size(510, 192);
+            this.Controls.Add(this.ver_lista);
+            this.Controls.Add(this.Contenido);
+            this.Controls.Add(this.look_button2);
             this.Controls.Add(this.read_button1);
-            this.Controls.Add(this.filename);
+            this.Controls.Add(this.entrada);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -108,11 +111,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox filename;
+        private System.Windows.Forms.TextBox entrada;
         private System.Windows.Forms.Button read_button1;
-        private System.Windows.Forms.Button write_button2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox content;
+        private System.Windows.Forms.Button look_button2;
+        private System.Windows.Forms.ListBox Contenido;
+        private System.Windows.Forms.Button ver_lista;
     }
 }
 

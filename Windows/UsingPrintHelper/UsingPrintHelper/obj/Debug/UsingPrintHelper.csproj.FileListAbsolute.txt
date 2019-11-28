@@ -9,3 +9,5 @@ C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\D
 C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\Debug\UsingPrintHelper.pdb
 C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\Debug\UsingPrintHelper.csprojAssemblyReference.cache
 C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\Debug\UsingPrintHelper.PrintHelper.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\Debug\UsingPrintHelper.Registro.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Windows\UsingPrintHelper\UsingPrintHelper\obj\Debug\UsingPrintHelper.Credencial.resources

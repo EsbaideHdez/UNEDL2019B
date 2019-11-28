@@ -30,5 +30,13 @@ namespace UsingPrintHelper
             ph.MdiParent = this;
             ph.Show();
         }
+
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Registro r = new Registro();
+            r.MdiParent = this;
+            r.Show();
+        }
     }
 }
+    
