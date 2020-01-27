@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class Test_Habitacion {
     public static void main(String[] args){
         Scanner t = new Scanner(System.in);
-        Habitacion habitacion1 = new Habitacion();
-        Tapiz tapiz1 =new Tapiz();
-        Calculadora calculadora1 = new Calculadora();
+        Habitacion habitacion1 = new Habitacion(2.75f, 4.0f);
+        System.out.println("area " +  habitacion1.getarea());
+        Tapiz tapiz1 =new Tapiz(3.5f);
+        System.out.println("costo" +  );
+        Calculadora calculadora1 = new Calculadora(habitacion1 , tapiz1);
+        
+        System.out.println("costo total");
         
       //  calculadora1.tapiz1 = tapiz1;
         System.out.println("Datos a ingresar de la habitacion");

@@ -1,0 +1,6 @@
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\bin\Debug\CompareTheTriplets.exe.config
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\bin\Debug\CompareTheTriplets.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\bin\Debug\CompareTheTriplets.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\obj\Debug\CompareTheTriplets.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\obj\Debug\CompareTheTriplets.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\CompareTheTriplets\CompareTheTriplets\obj\Debug\CompareTheTriplets.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.deps.json
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.runtimeconfig.json
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.runtimeconfig.dev.json
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.dll
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\bin\Debug\netcoreapp3.0\Semestres_Unedl.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\obj\Debug\netcoreapp3.0\Semestres_Unedl.csprojAssemblyReference.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\obj\Debug\netcoreapp3.0\Semestres_Unedl.AssemblyInfoInputs.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\obj\Debug\netcoreapp3.0\Semestres_Unedl.AssemblyInfo.cs
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\obj\Debug\netcoreapp3.0\Semestres_Unedl.dll
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Semestres_Unedl\Semestres_Unedl\obj\Debug\netcoreapp3.0\Semestres_Unedl.pdb
