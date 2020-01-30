@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.personales = new System.Windows.Forms.GroupBox();
+            this.richTextBoxDireccion = new System.Windows.Forms.RichTextBox();
             this.direccion = new System.Windows.Forms.Label();
-            this.dateTimePickerNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.Nacimiento = new System.Windows.Forms.DateTimePicker();
             this.textBoxApellido = new System.Windows.Forms.TextBox();
             this.textBoxNombre = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.sexo = new System.Windows.Forms.GroupBox();
             this.otro = new System.Windows.Forms.RadioButton();
             this.masculino = new System.Windows.Forms.RadioButton();
             this.femenino = new System.Windows.Forms.RadioButton();
@@ -41,35 +42,34 @@
             this.apellido = new System.Windows.Forms.Label();
             this.nombre = new System.Windows.Forms.Label();
             this.bancarios = new System.Windows.Forms.GroupBox();
+            this.limpiar = new System.Windows.Forms.Button();
+            this.ejecutar = new System.Windows.Forms.Button();
             this.dateTimePickerEjecucion = new System.Windows.Forms.DateTimePicker();
             this.textBoxSaldo = new System.Windows.Forms.TextBox();
             this.textBoxCantidad = new System.Windows.Forms.TextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.operacion = new System.Windows.Forms.GroupBox();
             this.consulta = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.fechaEje = new System.Windows.Forms.Label();
             this.saldo = new System.Windows.Forms.Label();
             this.cantidad = new System.Windows.Forms.Label();
-            this.richTextBoxDireccion = new System.Windows.Forms.RichTextBox();
-            this.ejecutar = new System.Windows.Forms.Button();
-            this.limpiar = new System.Windows.Forms.Button();
             this.edicion = new System.Windows.Forms.Button();
             this.cancelar = new System.Windows.Forms.Button();
             this.personales.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.sexo.SuspendLayout();
             this.bancarios.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.operacion.SuspendLayout();
             this.SuspendLayout();
             // 
             // personales
             // 
             this.personales.Controls.Add(this.richTextBoxDireccion);
             this.personales.Controls.Add(this.direccion);
-            this.personales.Controls.Add(this.dateTimePickerNacimiento);
+            this.personales.Controls.Add(this.Nacimiento);
             this.personales.Controls.Add(this.textBoxApellido);
             this.personales.Controls.Add(this.textBoxNombre);
-            this.personales.Controls.Add(this.groupBox3);
+            this.personales.Controls.Add(this.sexo);
             this.personales.Controls.Add(this.fechaN);
             this.personales.Controls.Add(this.apellido);
             this.personales.Controls.Add(this.nombre);
@@ -80,6 +80,14 @@
             this.personales.TabStop = false;
             this.personales.Text = "Datos Personales";
             // 
+            // richTextBoxDireccion
+            // 
+            this.richTextBoxDireccion.Location = new System.Drawing.Point(508, 29);
+            this.richTextBoxDireccion.Name = "richTextBoxDireccion";
+            this.richTextBoxDireccion.Size = new System.Drawing.Size(155, 117);
+            this.richTextBoxDireccion.TabIndex = 8;
+            this.richTextBoxDireccion.Text = "";
+            // 
             // direccion
             // 
             this.direccion.AutoSize = true;
@@ -89,12 +97,12 @@
             this.direccion.TabIndex = 7;
             this.direccion.Text = "Dirección:";
             // 
-            // dateTimePickerNacimiento
+            // Nacimiento
             // 
-            this.dateTimePickerNacimiento.Location = new System.Drawing.Point(134, 94);
-            this.dateTimePickerNacimiento.Name = "dateTimePickerNacimiento";
-            this.dateTimePickerNacimiento.Size = new System.Drawing.Size(253, 20);
-            this.dateTimePickerNacimiento.TabIndex = 6;
+            this.Nacimiento.Location = new System.Drawing.Point(134, 94);
+            this.Nacimiento.Name = "Nacimiento";
+            this.Nacimiento.Size = new System.Drawing.Size(253, 20);
+            this.Nacimiento.TabIndex = 6;
             // 
             // textBoxApellido
             // 
@@ -110,18 +118,18 @@
             this.textBoxNombre.Size = new System.Drawing.Size(292, 20);
             this.textBoxNombre.TabIndex = 4;
             // 
-            // groupBox3
+            // sexo
             // 
-            this.groupBox3.Controls.Add(this.otro);
-            this.groupBox3.Controls.Add(this.masculino);
-            this.groupBox3.Controls.Add(this.femenino);
-            this.groupBox3.Location = new System.Drawing.Point(26, 131);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(361, 47);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Sexo:";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            this.sexo.Controls.Add(this.otro);
+            this.sexo.Controls.Add(this.masculino);
+            this.sexo.Controls.Add(this.femenino);
+            this.sexo.Location = new System.Drawing.Point(26, 131);
+            this.sexo.Name = "sexo";
+            this.sexo.Size = new System.Drawing.Size(361, 47);
+            this.sexo.TabIndex = 3;
+            this.sexo.TabStop = false;
+            this.sexo.Text = "Sexo:";
+            this.sexo.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // otro
             // 
@@ -155,6 +163,7 @@
             this.femenino.TabStop = true;
             this.femenino.Text = "Femenino";
             this.femenino.UseVisualStyleBackColor = true;
+            this.femenino.CheckedChanged += new System.EventHandler(this.femenino_CheckedChanged);
             // 
             // fechaN
             // 
@@ -190,7 +199,7 @@
             this.bancarios.Controls.Add(this.dateTimePickerEjecucion);
             this.bancarios.Controls.Add(this.textBoxSaldo);
             this.bancarios.Controls.Add(this.textBoxCantidad);
-            this.bancarios.Controls.Add(this.groupBox4);
+            this.bancarios.Controls.Add(this.operacion);
             this.bancarios.Controls.Add(this.fechaEje);
             this.bancarios.Controls.Add(this.saldo);
             this.bancarios.Controls.Add(this.cantidad);
@@ -200,6 +209,26 @@
             this.bancarios.TabIndex = 1;
             this.bancarios.TabStop = false;
             this.bancarios.Text = "Datos Bancarios";
+            // 
+            // limpiar
+            // 
+            this.limpiar.Location = new System.Drawing.Point(474, 69);
+            this.limpiar.Name = "limpiar";
+            this.limpiar.Size = new System.Drawing.Size(75, 23);
+            this.limpiar.TabIndex = 10;
+            this.limpiar.Text = "Limpiar";
+            this.limpiar.UseVisualStyleBackColor = true;
+            this.limpiar.Click += new System.EventHandler(this.limpiar_Click);
+            // 
+            // ejecutar
+            // 
+            this.ejecutar.Location = new System.Drawing.Point(474, 19);
+            this.ejecutar.Name = "ejecutar";
+            this.ejecutar.Size = new System.Drawing.Size(75, 23);
+            this.ejecutar.TabIndex = 9;
+            this.ejecutar.Text = "Ejecutar";
+            this.ejecutar.UseVisualStyleBackColor = true;
+            this.ejecutar.Click += new System.EventHandler(this.ejecutar_Click);
             // 
             // dateTimePickerEjecucion
             // 
@@ -222,17 +251,17 @@
             this.textBoxCantidad.Size = new System.Drawing.Size(292, 20);
             this.textBoxCantidad.TabIndex = 6;
             // 
-            // groupBox4
+            // operacion
             // 
-            this.groupBox4.Controls.Add(this.consulta);
-            this.groupBox4.Controls.Add(this.radioButton5);
-            this.groupBox4.Controls.Add(this.radioButton4);
-            this.groupBox4.Location = new System.Drawing.Point(25, 138);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(374, 51);
-            this.groupBox4.TabIndex = 5;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Operación:";
+            this.operacion.Controls.Add(this.consulta);
+            this.operacion.Controls.Add(this.radioButton5);
+            this.operacion.Controls.Add(this.radioButton4);
+            this.operacion.Location = new System.Drawing.Point(25, 138);
+            this.operacion.Name = "operacion";
+            this.operacion.Size = new System.Drawing.Size(374, 51);
+            this.operacion.TabIndex = 5;
+            this.operacion.TabStop = false;
+            this.operacion.Text = "Operación:";
             // 
             // consulta
             // 
@@ -294,32 +323,6 @@
             this.cantidad.TabIndex = 2;
             this.cantidad.Text = "Cantidad";
             // 
-            // richTextBoxDireccion
-            // 
-            this.richTextBoxDireccion.Location = new System.Drawing.Point(508, 29);
-            this.richTextBoxDireccion.Name = "richTextBoxDireccion";
-            this.richTextBoxDireccion.Size = new System.Drawing.Size(155, 117);
-            this.richTextBoxDireccion.TabIndex = 8;
-            this.richTextBoxDireccion.Text = "";
-            // 
-            // ejecutar
-            // 
-            this.ejecutar.Location = new System.Drawing.Point(474, 19);
-            this.ejecutar.Name = "ejecutar";
-            this.ejecutar.Size = new System.Drawing.Size(75, 23);
-            this.ejecutar.TabIndex = 9;
-            this.ejecutar.Text = "Ejecutar";
-            this.ejecutar.UseVisualStyleBackColor = true;
-            // 
-            // limpiar
-            // 
-            this.limpiar.Location = new System.Drawing.Point(474, 69);
-            this.limpiar.Name = "limpiar";
-            this.limpiar.Size = new System.Drawing.Size(75, 23);
-            this.limpiar.TabIndex = 10;
-            this.limpiar.Text = "Limpiar";
-            this.limpiar.UseVisualStyleBackColor = true;
-            // 
             // edicion
             // 
             this.edicion.Location = new System.Drawing.Point(782, 40);
@@ -328,6 +331,7 @@
             this.edicion.TabIndex = 10;
             this.edicion.Text = "Edición";
             this.edicion.UseVisualStyleBackColor = true;
+            this.edicion.Click += new System.EventHandler(this.edicion_Click);
             // 
             // cancelar
             // 
@@ -350,14 +354,15 @@
             this.Controls.Add(this.personales);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.personales.ResumeLayout(false);
             this.personales.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.sexo.ResumeLayout(false);
+            this.sexo.PerformLayout();
             this.bancarios.ResumeLayout(false);
             this.bancarios.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.operacion.ResumeLayout(false);
+            this.operacion.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -369,10 +374,10 @@
         private System.Windows.Forms.Label nombre;
         private System.Windows.Forms.GroupBox bancarios;
         private System.Windows.Forms.Label direccion;
-        private System.Windows.Forms.DateTimePicker dateTimePickerNacimiento;
+        private System.Windows.Forms.DateTimePicker Nacimiento;
         private System.Windows.Forms.TextBox textBoxApellido;
         private System.Windows.Forms.TextBox textBoxNombre;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox sexo;
         private System.Windows.Forms.RadioButton otro;
         private System.Windows.Forms.RadioButton masculino;
         private System.Windows.Forms.RadioButton femenino;
@@ -380,7 +385,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePickerEjecucion;
         private System.Windows.Forms.TextBox textBoxSaldo;
         private System.Windows.Forms.TextBox textBoxCantidad;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox operacion;
         private System.Windows.Forms.RadioButton consulta;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton4;

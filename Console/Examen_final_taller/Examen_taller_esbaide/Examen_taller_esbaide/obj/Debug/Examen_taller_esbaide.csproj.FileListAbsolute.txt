@@ -7,3 +7,12 @@ C:\Users\Esbaide Hdez\source\repos\Examen_taller_esbaide\Examen_taller_esbaide\o
 C:\Users\Esbaide Hdez\source\repos\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.csproj.GenerateResource.cache
 C:\Users\Esbaide Hdez\source\repos\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.exe
 C:\Users\Esbaide Hdez\source\repos\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.csprojAssemblyReference.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.Form1.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.Properties.Resources.resources
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.csproj.GenerateResource.cache
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\obj\Debug\Examen_taller_esbaide.pdb
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\bin\Debug\Examen_taller_esbaide.exe.config
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\bin\Debug\Examen_taller_esbaide.exe
+C:\Users\Esbaide Hdez\UNEDL2019B\Console\Examen_final_taller\Examen_taller_esbaide\Examen_taller_esbaide\bin\Debug\Examen_taller_esbaide.pdb
